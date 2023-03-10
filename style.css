@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+a:hover{
+    border-bottom: 4px solid blue;
+}
+
+ul{
+    list-style: none;
+}
+.navs-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 3vw 0;
+    background-color: aliceblue;
+}
+
+ul{
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    padding: 7px;
+
+}
+
+li, .navs-container p{
+    padding: 8px;
+
+}
+
+.sign-up-btn{
+    background-color: cadetblue;
+    border-radius: 20px;
+    padding: 11px 14px;
+
+}
+
+.sign-up-btn a{
+    color: white;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 14vw;
+}
+
+.left-container{
+    padding-right: 12px;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+.digital{
+    color: blue;
+}
+
+.left-container p{
+    line-height: 1.6rem;
+    font-size: 13px; 
+    margin-top: 15px;   
+}
+
+.go-btn{
+    display: inline-block;
+    background-color: cadetblue;
+    border-radius: 20px;
+    padding:  8px 30px; 
+    color: white;
+}
